@@ -1,0 +1,91 @@
+
+@media (max-width: 375px) {
+    body{
+        height: fit-content;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    .xcel-hero img{
+        width: 300px;
+    }
+    
+    .xcel-form{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .xcel-form form{
+        width: 90%;
+        margin: 20px 20px;
+    }
+    
+    .xcel-form .info{
+        max-width: 90%;
+        margin-bottom: 5px;
+        margin: 5px 20px;
+    }
+    
+    .xcel-form .subtitle{
+        max-width: 100%;
+        font-size: 45px;
+        margin-bottom: 5px;
+        margin: 20px 10px;
+    }
+
+    form .xcel-verify button{
+        margin-left: 5px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body{
+        height: fit-content;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    nav ul li{
+        display: none;
+    }
+
+    .xcel-hero img{
+        width: 300px;
+    }
+    
+    .xcel-form{
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .xcel-form form{
+        width: 90%;
+        margin: 20px 20px;
+    }
+
+    .xcel-form form input{
+        padding: 11px;
+    }
+    
+    .xcel-form .info{
+        max-width: 90%;
+        margin-bottom: 5px;
+        margin: 5px 20px;
+    }
+    
+    .xcel-form .subtitle{
+        max-width: 100%;
+        font-size: 45px;
+        margin-bottom: 5px;
+        margin: 20px 10px;
+    }
+
+    form .xcel-verify button{
+        margin-left: 5px;
+    }
+}

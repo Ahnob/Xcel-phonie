@@ -172,3 +172,11 @@ option{
   height: 50px;
   border-radius: 50%;
 }
+
+#suggestions{
+  border: 1px solid black;
+  height: 90px;
+  overflow-y: scroll;
+  display: none;
+  width:43%;
+}
